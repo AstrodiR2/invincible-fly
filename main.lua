@@ -1,13 +1,13 @@
 -- main.lua :: entry point, self-contained loader. fetches modules/*.lua from raw.githubusercontent
 -- and builds them as real ModuleScripts at runtime, so this whole system runs off a single line:
---   loadstring(game:HttpGet("https://raw.githubusercontent.com/AstrodiR2/invincible-fly/main/main.lua"))()
+--   loadstring(game:HttpGet("https://raw.githubusercontent.com/AstrodiR2/invincible-fly/master/main.lua"))()
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 local HttpService = game:GetService("HttpService")
 
-local RAW_BASE = "https://raw.githubusercontent.com/AstrodiR2/invincible-fly/main/"
+local RAW_BASE = "https://raw.githubusercontent.com/AstrodiR2/invincible-fly/master/"
 
 local player = Players.LocalPlayer
 
